@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b822b48b024f9e96","type":"text","text":"<center>file status </center>","x":-120,"y":-380,"width":250,"height":60,"color":"6"},
+		{"id":"eb6c8615c05d53f9","type":"text","text":"<center>tracked (U)</center>","x":-370,"y":-180,"width":250,"height":60,"color":"4"},
+		{"id":"2beea4ce11d6a45d","type":"text","text":"<center>untracked </center>","x":130,"y":-180,"width":250,"height":60,"color":"1"},
+		{"id":"f2fc09fc43f387c8","type":"text","text":"<center>unmodified</center>","x":380,"y":0,"width":250,"height":60,"color":"4"},
+		{"id":"62e9794010b1b643","type":"text","text":"<center>modified (M)</center>","x":-120,"y":0,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"4b88cda6e0ad4229","fromNode":"b822b48b024f9e96","fromSide":"bottom","toNode":"eb6c8615c05d53f9","toSide":"top"},
+		{"id":"7bca81135271b644","fromNode":"b822b48b024f9e96","fromSide":"bottom","toNode":"2beea4ce11d6a45d","toSide":"top"},
+		{"id":"1c0948f01502c469","fromNode":"2beea4ce11d6a45d","fromSide":"bottom","toNode":"62e9794010b1b643","toSide":"top"},
+		{"id":"dfe5f546d5f53819","fromNode":"2beea4ce11d6a45d","fromSide":"bottom","toNode":"f2fc09fc43f387c8","toSide":"top"}
+	]
+}

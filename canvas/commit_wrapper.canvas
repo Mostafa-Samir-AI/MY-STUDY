@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"24b49c14794a27d1","x":-180,"y":40,"width":250,"height":60,"color":"4","type":"text","text":"<center>Tree</center>"},
+		{"id":"c233fdf6132cf577","x":-255,"y":-260,"width":400,"height":200,"color":"1","type":"text","text":"<h1 align = center>Commit object<h1>\n\n- commit object is wrapper that tell git which blob belong to which tree"},
+		{"id":"5809475ee6522b29","x":280,"y":250,"width":250,"height":60,"color":"6","type":"text","text":"<center>Blob 3</center>"},
+		{"id":"83ba1dc894776e21","x":-180,"y":250,"width":250,"height":60,"color":"6","type":"text","text":"<center>Blob 2</center>"},
+		{"id":"83e017a4dd97f194","x":-660,"y":250,"width":250,"height":60,"color":"6","type":"text","text":"<center>Blob 1</center>"}
+	],
+	"edges":[
+		{"id":"f65e698f623805e5","fromNode":"c233fdf6132cf577","fromSide":"bottom","toNode":"24b49c14794a27d1","toSide":"top"},
+		{"id":"c02fea2b643b1ecd","fromNode":"24b49c14794a27d1","fromSide":"bottom","toNode":"5809475ee6522b29","toSide":"top"},
+		{"id":"6da2c1b94bb4ea31","fromNode":"24b49c14794a27d1","fromSide":"bottom","toNode":"83ba1dc894776e21","toSide":"top"},
+		{"id":"2efc540f2aa0a012","fromNode":"24b49c14794a27d1","fromSide":"bottom","toNode":"83e017a4dd97f194","toSide":"top"}
+	]
+}
