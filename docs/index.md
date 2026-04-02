@@ -29,6 +29,7 @@ title: Home
 ## 🌳 Tree Concepts
 - [Gini Impurity](AI/Tree/Gini impurity.md)
 - [Entropy](AI/Tree/entroy.md)
+- [Entropy_2](AI/Tree/entroy.html)
 
 ## 📊 Data Processing
 - [NumPy](AI/data pre-processing/numpy/numpy.md)
